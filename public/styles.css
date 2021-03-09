@@ -1,0 +1,41 @@
+body {
+    background-color: plum;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    max-width: 512px;
+    padding: 40px 0px 40px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+#todo ul li {
+    overflow: hidden;
+}
+#todo ul li span {
+    float: right;
+}
+#todo ul li span i {
+    margin-right: 8px;
+}
+#add-todo {
+    clear: right;
+    margin-top: 22px;
+}
+.filtered {
+    display: none !important;
+}
+/*edit*/
+#todo ul li input {
+    display: none;
+}
+#todo ul li.edit-mode label {
+    display: none;
+}
+#todo ul li.edit-mode input {
+    display: inline-block;
+}
+#todo ul li span .save {
+    display: none;
+}
